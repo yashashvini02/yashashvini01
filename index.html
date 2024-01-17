@@ -46,7 +46,15 @@
                 setInterval(function () { 
                     blink.style.opacity = 
                     (blink.style.opacity == 0 ? 1 : 0); 
-                }, 100); 
-            </script> 
+                }, 500); 
+            
+
+    let text = "Click here";
+    let result = text.fontcolor("red");
+    document.getElementById("demo1").innerHTML = result;
+    
+    result = "<span style='color:red'>" + text + "</span>";
+    document.getElementById("demo2").innerHTML = result;
+    </script>
         </body>
 </html>
